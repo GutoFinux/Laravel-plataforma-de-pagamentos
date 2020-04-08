@@ -7,8 +7,11 @@ https://www.udemy.com/share/101YswAkAadVtWR3w=/
 
 
 Integração do Laravel com as seguintes plataformas de pagamento:
+
 Paypal
+
 Stripe
+
 PayU
 
 Obs.: A integração com Mercado Pago foi removida devido a instabilidades.
