@@ -98,7 +98,7 @@ class PayPalService {
 	}
 
 	public function resolveFactor($currency) {
-		$zeroDecimalCurrencies = ['JPY'];
+		$zeroDecimalCurrencies = ['JPY', 'CLP'];
 
 		if (in_array(strtoupper($currency), $zeroDecimalCurrencies)) {
 			return 1;
