@@ -49,4 +49,4 @@ Instalação/configuração:
 
 3 - Moedas não fracionadas no PayPal
 
-3.1 - Se pretende usar o PayPal é necessário acessar app/Services/PayPalService.php e adicionar (ou remover) as moedas que não utilizam centavos do vertor "$zeroDecimalCurrencies"
+3.1 - Se pretende usar o PayPal é necessário acessar app/Services/PayPalService.php e adicionar (ou remover) do vetor "$zeroDecimalCurrencies" as moedas que não utilizam centavos
