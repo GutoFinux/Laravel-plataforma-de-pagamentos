@@ -48,4 +48,5 @@ Instalação/configuração:
 2.7 - Atribua a chave obtida na variável "CURRENCY_CONVERSION_API_KEY"
 
 3 - Moedas não fracionadas no PayPal
+
 3.1 - Se pretende usar o PayPal é necessário acessar app/Services/PayPalService.php e adicionar (ou remover) as moedas que não utilizam centavos do vertor "$zeroDecimalCurrencies"
